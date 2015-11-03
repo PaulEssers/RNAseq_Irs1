@@ -1,0 +1,16 @@
+#nice python ~/../../software/HTSeq-0.6.1/scripts/htseq-count -s reverse -q -f bam ~/irs1ko_hypothalamus/mm10/tophat2/wt20038_accepted.bam ~/references/mm10/Mus_musculus/UCSC/mm10/Annotation/Genes/genes.gtf > wt20038_UCSC.rcount &
+#nice python ~/../../software/HTSeq-0.6.1/scripts/htseq-count -s reverse -q -f bam ~/irs1ko_hypothalamus/mm10/tophat2/wt20040_accepted.bam ~/references/mm10/Mus_musculus/UCSC/mm10/Annotation/Genes/genes.gtf > wt20040_UCSC.rcount &
+#nice python ~/../../software/HTSeq-0.6.1/scripts/htseq-count -s reverse -q -f bam ~/irs1ko_hypothalamus/mm10/tophat2/wt20041_accepted.bam ~/references/mm10/Mus_musculus/UCSC/mm10/Annotation/Genes/genes.gtf > wt20041_UCSC.rcount &
+#nice python ~/../../software/HTSeq-0.6.1/scripts/htseq-count -s reverse -q -f bam ~/irs1ko_hypothalamus/mm10/tophat2/wt20042_accepted.bam ~/references/mm10/Mus_musculus/UCSC/mm10/Annotation/Genes/genes.gtf > wt20042_UCSC.rcount &
+#nice python ~/../../software/HTSeq-0.6.1/scripts/htseq-count -s reverse -q -f bam ~/irs1ko_hypothalamus/mm10/tophat2/irs1ko619_accepted.bam ~/references/mm10/Mus_musculus/UCSC/mm10/Annotation/Genes/genes.gtf > irs1ko619_UCSC.rcount &
+#nice python ~/../../software/HTSeq-0.6.1/scripts/htseq-count -s reverse -q -f bam ~/irs1ko_hypothalamus/mm10/tophat2/irs1ko620_accepted.bam ~/references/mm10/Mus_musculus/UCSC/mm10/Annotation/Genes/genes.gtf > irs1ko620_UCSC.rcount &
+#nice python ~/../../software/HTSeq-0.6.1/scripts/htseq-count -s reverse -q -f bam ~/irs1ko_hypothalamus/mm10/tophat2/irs1ko621_accepted.bam ~/references/mm10/Mus_musculus/UCSC/mm10/Annotation/Genes/genes.gtf > irs1ko621_UCSC.rcount 
+
+nice python ~/../../software/HTSeq-0.6.1/scripts/htseq-count -s reverse -f bam ~/irs1ko_hypothalamus/mm10/tophat2/wt20038_accepted.bam  ~/references/GRCm38/Annotation/gencode/gencode.vM4.annotation.gtf > wt20038_gencode.rcount &
+nice python ~/../../software/HTSeq-0.6.1/scripts/htseq-count -s reverse -f bam ~/irs1ko_hypothalamus/mm10/tophat2/wt20040_accepted.bam  ~/references/GRCm38/Annotation/gencode/gencode.vM4.annotation.gtf > wt20040_gencode.rcount &
+nice python ~/../../software/HTSeq-0.6.1/scripts/htseq-count -s reverse -f bam ~/irs1ko_hypothalamus/mm10/tophat2/wt20041_accepted.bam  ~/references/GRCm38/Annotation/gencode/gencode.vM4.annotation.gtf > wt20041_gencode.rcount &
+nice python ~/../../software/HTSeq-0.6.1/scripts/htseq-count -s reverse -f bam ~/irs1ko_hypothalamus/mm10/tophat2/wt20042_accepted.bam  ~/references/GRCm38/Annotation/gencode/gencode.vM4.annotation.gtf > wt20042_gencode.rcount &
+nice python ~/../../software/HTSeq-0.6.1/scripts/htseq-count -s reverse -f bam ~/irs1ko_hypothalamus/mm10/tophat2/irs1ko619_accepted.bam  ~/references/GRCm38/Annotation/gencode/gencode.vM4.annotation.gtf > irs1ko619_gencode.rcount &
+nice python ~/../../software/HTSeq-0.6.1/scripts/htseq-count -s reverse -f bam ~/irs1ko_hypothalamus/mm10/tophat2/irs1ko620_accepted.bam  ~/references/GRCm38/Annotation/gencode/gencode.vM4.annotation.gtf > irs1ko620_gencode.rcount &
+nice python ~/../../software/HTSeq-0.6.1/scripts/htseq-count -s reverse -f bam ~/irs1ko_hypothalamus/mm10/tophat2/irs1ko621_accepted.bam  ~/references/GRCm38/Annotation/gencode/gencode.vM4.annotation.gtf > irs1ko621_gencode.rcount
+
